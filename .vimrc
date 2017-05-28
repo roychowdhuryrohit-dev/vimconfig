@@ -17,6 +17,7 @@ let g:syntastic_python_checkers = ['pylint']
 inoremap { {<CR>}<Esc>ko
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
+inoremap " ""<Esc>i
 inoremap + <Space>+<Space>
 inoremap - <Space>-<Space>
 inoremap * <Space>*<Space>
