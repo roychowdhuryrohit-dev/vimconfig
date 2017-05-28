@@ -20,10 +20,16 @@ inoremap [ []<Esc>i
 inoremap + <Space>+<Space>
 inoremap - <Space>-<Space>
 inoremap * <Space>*<Space>
+inoremap .* .*
 inoremap / <Space>/<Space>
+inoremap </ </
+inoremap /* /*<Space>
 inoremap // //<Space>
 inoremap & <Space>&<Space>
 inoremap && <Space>&&<Space>
+inoremap += <Space>+=<Space>
 inoremap != <Space>!=<Space>
+inoremap = <Space>=<Space>
 inoremap <Bar> <Space><Bar><Space>
 inoremap <Bar><Bar> <Space><Bar><Bar><Space>
+set timeoutlen=2000
