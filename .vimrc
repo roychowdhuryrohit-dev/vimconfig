@@ -1,4 +1,4 @@
-set autoindent 
+set autoindent
 set cindent
 set number
 execute pathogen#infect()
@@ -29,7 +29,11 @@ inoremap // //<Space>
 inoremap & <Space>&<Space>
 inoremap && <Space>&&<Space>
 inoremap += <Space>+=<Space>
+inoremap ++ ++
+inoremap -- --
 inoremap != <Space>!=<Space>
+inoremap <= <Space><=<Space>
+inoremap >= <Space>>=<Space>
 inoremap = <Space>=<Space>
 inoremap <Bar> <Space><Bar><Space>
 inoremap <Bar><Bar> <Space><Bar><Bar><Space>
