@@ -34,6 +34,7 @@ inoremap -- --
 inoremap != <Space>!=<Space>
 inoremap <= <Space><=<Space>
 inoremap >= <Space>>=<Space>
+inoremap == <Space>==<Space>
 inoremap = <Space>=<Space>
 inoremap <Bar> <Space><Bar><Space>
 inoremap <Bar><Bar> <Space><Bar><Bar><Space>
