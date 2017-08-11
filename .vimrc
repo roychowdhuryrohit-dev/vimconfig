@@ -1,6 +1,18 @@
 set autoindent
 set cindent
 set number
+set showmatch
+set errorbells
+set hlsearch
+set ruler
+set undolevels=1000
+set backspace=indent,eol,start
+set softtabstop=4
+set smarttab
+set smartindent
+set shiftwidth=4
+set incsearch
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
