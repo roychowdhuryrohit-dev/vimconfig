@@ -12,6 +12,7 @@ set smarttab
 set smartindent
 set shiftwidth=4
 set incsearch
+set cursorline
 
 execute pathogen#infect()
 syntax on
